@@ -7,6 +7,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -17,6 +21,7 @@ body {
   height: 100vh;
   padding: 0;
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 .maindiv {
@@ -40,6 +45,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: auto;
 }
 
 .textblock {
@@ -77,5 +83,23 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 3em;
+}
+
+.wierszykiChildTag {
+  background-color: #92928f;
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 2em;
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */

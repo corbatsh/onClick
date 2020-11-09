@@ -4,13 +4,14 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100vh;
     padding: 0;
     margin: 0;
-
+    font-family: 'Poppins', sans-serif;
 }
 .maindiv {
     background-color: rgb(192, 190, 190);
@@ -27,6 +28,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
     
 }
 
@@ -58,4 +60,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 3em;
+}
+
+.wierszykiChildTag {
+    background-color: rgb(146, 146, 143);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+    margin: auto;
+
+  
 }
